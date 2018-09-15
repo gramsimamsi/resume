@@ -1,6 +1,7 @@
 %-------------------------
 % Resume in Latex
-% Author : Sourabh Bajaj
+% Template: Sourabh Bajaj
+% Author: Lukas Grams
 % License : MIT
 %------------------------
 
@@ -49,6 +50,12 @@
   }
 }
 
+\newcommand{\resumeItemWithoutHeadline}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -74,108 +81,115 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-  \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+  \textbf{\href{https://github.com/gramsimamsi}{\Large Lukas Grams}} & Email : \href{mailto:lukas.grams.info@gmail.com}{lukas.grams.info@gmail.com}\\
+  \href{https://www.linkedin.com/in/lukas-grams/?locale=en_US}{linkedin.com/in/lukas-grams/ (eng)} & Tel : +49 (0)151 6519 6156\\
+  \href{https://github.com/gramsimamsi}{github.com/gramsimamsi} & Tel : +49 (0)151 6519 6156\\
 \end{tabular*}
 
 
 %-----------EDUCATION-----------------
-\section{Education}
+\section{Ausbildung}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Master of Science in Computer Science;  GPA: 4.00}{Aug. 2012 -- Dec. 2013}
+   	  {Bachelor of Science in Informatik}{2015 -- heute}    
+      {Hochschule Rosenheim,  vorl. Bachelor-Schnitt: 1,68}{Rosenheim}
+  	\resumeSubheading
+  	  {Fachhochschulreife}{2014 -- 2015}
+      {Berufsoberschule Wasserburg am Inn,  Notenschnitt: 2,0}{Wasserburg}
     \resumeSubheading
-      {Birla Institute of Technology and Science}{Pilani, India}
-      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
+      {IT-Systemelektroniker (IHK-Ausbildung)}{2011 -- 2014}
+      {Berufsschule München,  Notenschnitt: 1,0}{München}
   \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{Berufserfahrung}
   \resumeSubHeadingListStart
 
-    \resumeSubheading
-      {Google}{Mountain View, CA}
-      {Software Engineer}{Oct 2016 - Present}
-      \resumeItemListStart
-        \resumeItem{Tensorflow}
-          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models.}
-        \resumeItem{Apache Beam}
-          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
-      \resumeItemListEnd
+	\resumeSubheading
+	{Technical Specialist im Vulnerability Management}{2018 - heute}
+  	{Fujitsu}{München}
+  	\resumeItemListStart
+		\resumeItemWithoutHeadline
+       	{Entwickeln von Tools, Systemen und Prozessen zur automatisierten Vulnerability Management Analysen und Alertings}
+        \resumeItemWithoutHeadline
+		{Verwendete Technologien: Elasticsearch, Logstash, Kibana, Kolide Fleet, Docker, GitLab, Ruby}
+	\resumeItemListEnd
 
-    \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
-      \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
-      \resumeItemListEnd
+	\resumeSubheading
+	{Tutor / Übungsleiter für  Algorithmen \& Datenstrukturen, Programmieren 2}{2017 - 2018}
+	{Hochschule Rosenheim, Fakultät Informatik}{Rosenheim}
+	\resumeItemListStart
+		\resumeItemWithoutHeadline
+		{Abwechselndes Unterstützen und Anleiten der vorlesungsbegleitenden Übungsstunden}
+		\resumeItemWithoutHeadline
+		{Motivieren der Studenten, Vermitteln ergänzend relevanten Stoffes.}
+	\resumeItemListEnd
 
-    \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
-      \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
-      \resumeItemListEnd
+	\resumeSubheading{Studentischer Mitarbeiter im \href{http://www.fh-rosenheim.de/forschung-entwicklung/kompetenzfelder-und-projekte/information-und-kommunikation/lv-selbstlernend/}{Forschungsprojekt "LV-selbstlernend"}}{2017}
+	{Hochschule Rosenheim, Forschung \& Entwicklung}{Rosenheim}
+	\resumeItemListStart
+		\resumeItemWithoutHeadline
+		{Eigenständige Evaluation von Lösungswegen sowie Umsetzung derselben}
+		\resumeItemWithoutHeadline
+		{Ziel: Sekündliches Auslesen und Loggen der elektrischen Leistungsabnahme eines Haushaltes}
+		\resumeItemWithoutHeadline
+		{Entwicklung eines Softwaremoduls zum automatisierten Auslesen durch einen Einplatinencomputer}
+		\resumeItemWithoutHeadline
+		{Modul-Auswahl und Design des Hardware-Systems}
+		\resumeItemWithoutHeadline
+		{Aufbau und Funktionstest eines Testsystems}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Support Engineer (2nd Level Support)}{2015}
+	{Cancom NSG GmbH}{München}
+	\resumeItemListStart
+		\resumeItemWithoutHeadline
+		{Support für Desktop-Umgebungen im direkten Kundenkontakt}
+	\resumeItemListEnd
 
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
-      \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
-      \resumeItemListEnd
-
+	
+	\resumeSubheading
+	{Auszubildender IT-Systemelektroniker}{2011 - 2014}
+	{Cancom GmbH}{München}
+	\resumeItemListStart
+		\resumeItemWithoutHeadline
+		{Service, Instandsetzung und Kundenbetreuung von Kyocera-Laserdruckern }
+		\resumeItemWithoutHeadline
+		{Garantieabwicklung von Kyocera-Laserdruckern }
+		\resumeItemWithoutHeadline
+		{Kennenlernen der Systemadministration und Prozesse vieler Unternehmen}
+	\resumeItemListEnd
   \resumeSubHeadingListEnd
 
-
-%-----------PROJECTS-----------------
-\section{Projects}
+%-----------VOLUNTEERING-----------------
+\section{Ehrenamt}
   \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  
+	\resumeSubheading
+	{Semestersprecher und aktives Fachschaftsmitglied}{2015 - heute}
+	{Hochschule Rosenheim, Fakultät Informatik}{München}
+	\resumeItemListStart
+	\resumeItemWithoutHeadline
+	{Bilaterale Interessensvertretung und Vermittlung zwischen Studenten und Professoren}
+	\resumeItemWithoutHeadline
+	{Organisation von Informationsabenden, Parties und weiteren Aktionen.}
+	\resumeItemListEnd
   \resumeSubHeadingListEnd
 
 %
-%--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+%--------SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{
+      	\textbf{Sprachen}{: Englisch, Java, C, Assembler (x86/Pentium)}
+    }
+	\item{
+		\textbf{Technologien}{: Git, Elasticsearch, Logstash, Kibana, MySQL, Kolide Fleet, osquery, Linux}
+	}
+  \resumeSubHeadingListEnd
 
-
+{Dieser Lebenslauf ist in LaTeX geschrieben. Die Source ist auch auf \href{https://github.com/gramsimamsi/resume/blob/master/sourabh_bajaj_resume.tex}{meinem github} zu finden. }\\
 %-------------------------------------------
 \end{document}
