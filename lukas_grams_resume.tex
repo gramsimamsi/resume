@@ -14,9 +14,20 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage[urlcolor=blue]{hyperref}
+%\usepackage[hidelinks]{hyperref}
+%\usepackage{hyperref}
 \usepackage{fancyhdr}
+\usepackage{nccfoots}
 
+\hypersetup{
+	colorlinks=true,% hyperlinks will be coloured
+	pdfsubject={Lebenslauf von Lukas Grams},
+	pdfauthor={Lukas Grams},
+	pdfcreator={TeXworks},
+	pdfproducer={LaTeX with hyperref}
+}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -81,9 +92,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://github.com/gramsimamsi}{\Large Lukas Grams}} & Email : \href{mailto:lukas.grams.info@gmail.com}{lukas.grams.info@gmail.com}\\
+  \textbf{\Large Lukas Grams} & Email : \href{mailto:lukas.grams.info@gmail.com}{lukas.grams.info@gmail.com}\\
   \href{https://www.linkedin.com/in/lukas-grams/?locale=en_US}{linkedin.com/in/lukas-grams/ (eng)} & Tel : +49 (0)151 6519 6156\\
-  \href{https://github.com/gramsimamsi}{github.com/gramsimamsi} & Tel : +49 (0)151 6519 6156\\
 \end{tabular*}
 
 
@@ -189,7 +199,8 @@
 		\textbf{Technologien}{: Git, Elasticsearch, Logstash, Kibana, MySQL, Kolide Fleet, osquery, Linux}
 	}
   \resumeSubHeadingListEnd
-
-{Dieser Lebenslauf ist in LaTeX geschrieben. Die Source ist auch auf \href{https://github.com/gramsimamsi/resume/blob/master/sourabh_bajaj_resume.tex}{meinem github} zu finden. }\\
 %-------------------------------------------
+\vfil
+\raggedleft 
+\tiny{Dieser Lebenslauf ist in LaTeX geschrieben. Der Sourcefile ist auf meinem \href{https://github.com/gramsimamsi/resume/blob/master/sourabh_bajaj_resume.tex}{github repository} zu finden. }
 \end{document}
