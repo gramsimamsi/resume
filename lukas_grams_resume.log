@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.4)  4 JAN 2019 19:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.4)  4 JAN 2019 19:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -338,7 +338,7 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 89.
 (c:/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<Passbild.jpg, id=29, 185.7339pt x 247.4043pt>
+<Passbild.jpg, id=28, 185.7339pt x 247.4043pt>
 File: Passbild.jpg Graphic file (type jpg)
 <use Passbild.jpg>
 Package pdftex.def Info: Passbild.jpg  used on input line 102.
@@ -385,10 +385,10 @@ ist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on lukas_grams_resume.pdf (2 pages, 349889 bytes).
+Output written on lukas_grams_resume.pdf (2 pages, 349833 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
