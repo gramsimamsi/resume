@@ -1,5 +1,5 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'lukas_grams_resume.blg'
-[41] biber-MSWIN32:315> INFO - === 
-[515] Utils.pm:209> ERROR - Cannot find control file 'lukas_grams_resume.bcf'! - Did latex run successfully on your .tex file before you ran biber?
-[515] Biber.pm:114> INFO - ERRORS: 1
+[36] biber-MSWIN32:315> INFO - === 
+[503] Utils.pm:209> ERROR - Cannot find control file 'lukas_grams_resume.bcf'! - Did latex run successfully on your .tex file before you ran biber?
+[503] Biber.pm:114> INFO - ERRORS: 1
