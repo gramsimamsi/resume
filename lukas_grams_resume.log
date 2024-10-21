@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.4)  20 OCT 2024 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.4)  21 OCT 2024 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,23 +352,23 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 117.
+(Font)              <7> on input line 116.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 117.
+(Font)              <5> on input line 116.
  [1
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./conference.jp
 eg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
 
 (./lukas_grams_resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
 Package rerunfilecheck Info: File `lukas_grams_resume.out' has not changed.
 (rerunfilecheck)             Checksum: D8FA16C9BD8F4A372B4CDC247A174785;226.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 292.
  ) 
 Here is how much of TeX's memory you used:
  6733 strings out of 492616
@@ -377,7 +377,7 @@ Here is how much of TeX's memory you used:
  10569 multiletter control sequences out of 15000+600000
  8924 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,11n,43p,238b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,11n,43p,264b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2018/texmf-d
@@ -385,7 +385,7 @@ ist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on lukas_grams_resume.pdf (2 pages, 210387 bytes).
+Output written on lukas_grams_resume.pdf (2 pages, 210350 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
